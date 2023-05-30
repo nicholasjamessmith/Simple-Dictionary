@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body {
+  background-color: whitesmoke
+}
+
+body>h1 {
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+  font-style: italic;
+}
+
+.display {
+  /*text-align: center;
+  display: block;
+  background-color: orange*/
+  width: 600px;
+  height: 400px;
+  background-color: gainsboro;
+  margin: auto;
+  border: 2px solid red
+}
+
+.output {
+  width: 580px;
+  height: 365px;
+  background-color: gainsboro;
+  margin: auto;
+  border: 2px solid red;
+}
+
+.search {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 24em;
+  font-style: italic;
+  font-family: 'Assistant', sans-serif;
+}
+
+.search-button {
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4d5254;
+  width: auto;
+  padding-left: 7em;
+  padding-right: 7em;
+  font-family: 'Assistant', sans-serif;
+}
+
+a:link {
+  color: tomato
+}
+
+a:visited {
+  color: tomato
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: tomato;
+}
